@@ -10,11 +10,11 @@
 $(document).ready(function() {
 	$("toInput").click(function() {
 		$(location).attr("href", "inputView.html");
-	}
+	})
 	
 	$("toOutput").click(function() {
 		$(location).attr("href", "outputView.html");
-	}
+	})
 })
 
 </script>
