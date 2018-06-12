@@ -12,11 +12,13 @@
 	<c:when test="${result>0}">
 		<script>
 			alert("입력 성공");
+			location.href = index.html;
 		</script>
 	</c:when>
 	<c:otherwise>
 		<script>
 			alert("입력 실패");
+			location.href = index.html;
 		</script>
 	</c:otherwise>
 </c:choose>
