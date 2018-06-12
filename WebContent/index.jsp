@@ -5,8 +5,29 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script>
+$(document).ready(function() {
+	$("toInput").click(function() {
+		$(location).attr("href", "inputView.html");
+	}
+	
+	$("toOutput").click(function() {
+		$(location).attr("href", "outputView.html");
+	}
+})
+
+</script>
 </head>
 <body>
-	index
+	<table border=1>
+		<tr>
+			<th colspan=2>Index
+		</tr>
+		<tr>
+			<td> <button id="toInput">input</button>
+			<td> <button id="toOutput">output</button>
+		</tr>
+	</table>
 </body>
 </html>
