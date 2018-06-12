@@ -7,12 +7,14 @@
 <title>Insert title here</title>
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script>
+
+
 $(document).ready(function() {
-	$("toInput").click(function() {
+	$("#toInput").click(function() {
 		$(location).attr("href", "inputView.html");
 	})
 	
-	$("toOutput").click(function() {
+	$("#toOutput").click(function() {
 		$(location).attr("href", "outputView.html");
 	})
 })
